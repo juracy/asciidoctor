@@ -6,6 +6,7 @@ Docker Image for Asciidoctor
 :adoc-diagram-git: https://github.com/asciidoctor/asciidoctor-diagram
 :adoc-backends-git: https://github.com/asciidoctor/asciidoctor-backends
 :adoc-revealjs-git: https://github.com/asciidoctor/asciidoctor-reveal.js
+:rouge-git: https://github.com/jneen/rouge
 
 Image based on https://hub.docker.com/r/asciidoctor/docker-asciidoctor
 
@@ -16,9 +17,9 @@ Several components were stripped out for a reduced image size.
 * {adoc-git}[asciidoctor 1.5.5]
 * {adoc-pdf-git}[asciidoctor-pdf 1.5.0.alpha.15]
 * {adoc-diagram-git}[asciidoctor-diagram]
-* {adoc-backends-git}[asciidoctor-backends]
+* {adoc-backends-git}[asciidoctor-backends] - Directory `/backends`
 * {adoc-revealjs-git}[asciidoctor-reveal.js]
 * Syntax hightlight:
 ** CodeRay
 ** Pygments
-** Rouge
+** {rouge-git}[Rouge]
