@@ -23,3 +23,10 @@ Several components were stripped out for a reduced image size.
 ** CodeRay
 ** Pygments
 ** {rouge-git}[Rouge]
+
+== How to use
+
+[source, bash]
+----
+docker run --rm -v $(pwd):/docs juracy/asciidoctor:latest asciidoctor <file.adoc>
+----
