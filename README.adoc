@@ -1,6 +1,24 @@
 Docker Image for Asciidoctor
 ============================
 
+:adoc-git: https://github.com/asciidoctor/asciidoctor
+:adoc-pdf-git: https://github.com/asciidoctor/asciidoctor-pdf
+:adoc-diagram-git: https://github.com/asciidoctor/asciidoctor-diagram
+:adoc-backends-git: https://github.com/asciidoctor/asciidoctor-backends
+:adoc-revealjs-git: https://github.com/asciidoctor/asciidoctor-reveal.js
+
 Image based on https://hub.docker.com/r/asciidoctor/docker-asciidoctor
 
 Several components were stripped out for a reduced image size.
+
+== Components
+
+* {adoc-git}[asciidoctor 1.5.5]
+* {adoc-pdf-git}[asciidoctor-pdf 1.5.0.alpha.15]
+* {adoc-diagram-git}[asciidoctor-diagram]
+* {adoc-backends-git}[asciidoctor-backends]
+* {adoc-revealjs-git}[asciidoctor-reveal.js]
+* Syntax hightlight:
+** CodeRay
+** Pygments
+** Rouge
