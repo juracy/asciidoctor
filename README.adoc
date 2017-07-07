@@ -1,0 +1,6 @@
+Docker Image for Asciidoctor
+============================
+
+Image based on https://hub.docker.com/r/asciidoctor/docker-asciidoctor
+
+Several components were stripped out for a reduced image size.
